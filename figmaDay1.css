@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    font-family: 'montserrat', sans-serif;
+}
+
+.logo {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+/* menghilangkan underline dan warna */
+.under {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+}
+
+.kotak1 {
+    background-color: rgb(255, 255, 255);
+    width: 614px;
+    height: 110px;
+    margin-top: 70px;
+}
+
+.kotak2 img{
+    width: 400px;
+    height: 500px;
+}
+
+.main .kotak1 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.main .kotak1 h3 {
+    font-family: 'montserrat', sans-serif;
+}
+
+.main .kotak1 button {
+    background-color: #FB9100;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    margin: 10px 30px;
+}
+
+.main .kotak1 button:hover {
+    background-color: black;
+}
+
+.buah {
+    display: flex;
+}
+
+.buah img {
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.buah .buah2 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 240px;
+}
+
+.judul1 h1 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.gambar {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+
+.pepaya img {
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    left: 430px;
+    margin-top: 70px;
+}
+
+.polkadot1 img {
+    width: 300px;
+    height: 120px;
+    margin-top: 340px;
+
+}
+
+.polkadot2 img {
+    width: 300px;
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.otak1 img {
+    width: 80px;
+    position: absolute;
+    margin-top: 100px;
+    right: 200px;
+}
+
+.bulet2 {
+    display: flex;
+}
+
+.bulet img {
+    width: 130px;
+    margin-top: 100px;
+}
+
+.lambung1 img {
+  position: absolute;
+  left: 950px;
+}
+
+.end {
+    display: flex;
+}
+
+.bagian4 {
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 470px;
+}
+
+.bagian4 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.bagian4 h3 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.kotak3 .bagian4 button {
+    background-color: #FB9100;
+    color: white;
+    padding: 10px 30px;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    margin: 10px 30px;
+}
+
+.kotak3 .bagian4 button:hover {
+    background-color: black;
+}
+
+.gambar4 img {
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 270px;
+}
+
+.gambar5 img {
+    width: 370px;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -400px;
+}
+
+.gambar6 img {
+    width: 300px;
+    margin-left: 580px;
+    margin-top: 100px;
+}

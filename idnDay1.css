@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 200, 246);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.passwd {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.login {
+    text-align: center;
+}
+
+.userlabel {
+    display: flex;
+}
+
+.user {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.pass {
+    display: flex;
+}
+
+.passwd input {
+    width: 250px;
+}
+
+.lupapass {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.lupaapass {
+    text-decoration: none;
+}

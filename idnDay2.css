@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.home1 {
+    background-color: #F8BD59;
+}
+
+.home2 {
+    background-color: black;
+}
+
+.home3 {
+    background-color: aqua;
+}
+
+.home4 {
+    background-color: blue;
+}
